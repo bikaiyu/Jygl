@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kyle.activity.Activity_info">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/layout_title"
+
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_btn"
+            android:id="@+id/imageView_title_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:id="@+id/textView_title_show"
+            android:text="标题"/>
+
+        <ImageView
+            android:src="@drawable/map_logo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView_info_title_link2map"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <com.kyle.view.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliding_actinfo_titlemenu"
+        android:layout_below="@id/layout_title"
+        android:layout_alignParentLeft="true" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/actinfo_viewpager"
+        android:layout_below="@id/sliding_actinfo_titlemenu"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

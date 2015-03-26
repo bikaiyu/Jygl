@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info_menu">
+        <item>全部</item>
+        <item>景点</item>
+        <item>美食</item>
+        <item>娱乐</item>
+        <item>住宿</item>
+        <item>购物</item>
+    </string-array>
+
+    <string-array name="info_menu_id">
+        <item>all</item>
+        <item>jd</item>
+        <item>ms</item>
+        <item>yl</item>
+        <item>zs</item>
+        <item>gw</item>
+    </string-array>
+
+</resources>

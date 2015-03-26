@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/ItemLinerStyle">
+
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            style="@style/ItemImageStyle"
+            android:id="@+id/imageView_item_recom" />
+
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout style="@style/ItemLinerStyle">
+
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageView_item_strategy"
+            style="@style/ItemImageStyle" />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageView_item_information"
+            style="@style/ItemImageStyle" />
+
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout style="@style/ItemLinerStyle">
+
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView_item_weather" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textView_item_weather"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageView_item_cityLook"
+            style="@style/ItemImageStyle" />
+
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
