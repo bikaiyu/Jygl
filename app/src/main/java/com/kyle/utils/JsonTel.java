@@ -19,7 +19,7 @@ public class JsonTel {
 
     public static List<TelList> paseJsonToList(String json){
         List<TelList> list = new ArrayList<>();
-
+        int count = 0;
         try {
             JSONArray jsonArray = new JSONObject(json).getJSONArray("list");
             for (int i = 0; i < jsonArray.length(); i++) {
@@ -33,12 +33,14 @@ public class JsonTel {
                     tel.setName(jsonObject.getString("name"));
                     tel.setTel(jsonObject.getString("tel"));
                     tellist.getNumber().add(tel);
+                    count++;
                 }
 
                 list.add(tellist);
 
             }
             Log.e("JsonTel", "list.size:==>" + list.size());
+            Log.e("JsonTel", "all.size:==>" + count);
             return list;
         } catch (JSONException e) {
             e.printStackTrace();
