@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/kyle/adapter/TestBaseAdapter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/kyle/fragment/InformationFragment.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/kyle/view/SlidingTabLayout.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/kyle/view/SlidingTabStrip.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/kyle/view/UnderlineTextView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/AdapterWrapper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/CheckableWrapperView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/DistinctMultiHashMap.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/DualHashMap.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/ExpandableStickyListHeadersAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/ExpandableStickyListHeadersListView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/SectionIndexerAdapterWrapper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/StickyListHeadersAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/StickyListHeadersListView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/WrapperView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/stickylistheaders/WrapperViewList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/back_btn.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/header_selector.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/header.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_footer.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/test_list_item_layout.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

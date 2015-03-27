@@ -161,43 +161,33 @@ public class HomePageFragment extends Fragment implements View.OnClickListener{
         switch (view.getId()){
             case R.id.imageView_item_recom://推荐
                 intent.setClass(getActivity(), Activity_recom.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item_strategy://攻略
                 intent.setClass(getActivity(), Activity_strategy.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item_information://资讯
                 intent.setClass(getActivity(), Activity_information.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item_weather://天气
                 intent.setClass(getActivity(), Activity_weather.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item_cityLook://城市面貌
                 intent.setClass(getActivity(), Activity_cityLook.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item2_info://旅游信息
                 intent.setClass(getActivity(), Activity_info.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item2_map://地图
                 intent.setClass(getActivity(), Activity_map.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item2_phone://电话
                 intent.setClass(getActivity(), Activity_phone.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item2_traffic://交通
                 intent.setClass(getActivity(), Activity_traffic.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.imageView_item2_move://更多
                 intent.setClass(getActivity(), Activity_more.class);
-                Toast.makeText(getActivity(),""+view.getId(),Toast.LENGTH_SHORT).show();
                 break;
         }
         startActivity(intent);

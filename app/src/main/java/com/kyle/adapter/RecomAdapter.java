@@ -8,12 +8,14 @@ import com.lidroid.xutils.ViewUtils;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lidroid.xutils.bitmap.BitmapDisplayConfig;
 import com.lidroid.xutils.bitmap.callback.BitmapLoadCallBack;
@@ -56,14 +58,16 @@ public class RecomAdapter extends BaseAdapter {
         ViewHolder mholder= (ViewHolder) convertView.getTag();
         Beans bean=list.get(position);
         mholder.textView.setText(bean.getTitle());
+
         BitmapHelper.getUtils().display(mholder.imageView, UrlPath.picturehome + bean.getIcon(),
             new BitmapLoadCallBack<ImageView>(){
 
                 @Override
                 public void onLoadCompleted(ImageView imageView, String s, Bitmap bitmap, BitmapDisplayConfig bitmapDisplayConfig, BitmapLoadFrom bitmapLoadFrom) {
-                    int width=bitmap.getWidth();
-                    Bitmap bitmap1=Bitmap.createBitmap(width, width, Bitmap.Config.ARGB_8888);
-                    imageView.setImageBitmap(bitmap1);
+                    //int width=bitmap.getWidth();
+                   // Log.d("String","=================="+s);
+                    //Bitmap bitmap1=Bitmap.createBitmap(width, width, Bitmap.Config.ARGB_8888);
+                    imageView.setImageBitmap(bitmap);
 
                 }
 
@@ -87,6 +91,10 @@ public class RecomAdapter extends BaseAdapter {
         notifyDataSetChanged();
     }
 
+
+    public void data(){
+
+    }
 
     public static class ViewHolder{
         private View itemView;

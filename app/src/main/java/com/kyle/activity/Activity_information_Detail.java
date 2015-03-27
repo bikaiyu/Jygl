@@ -55,8 +55,12 @@ public class Activity_information_Detail extends ActionBarActivity {
 
         Intent intent=new Intent();
         intent.setAction(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:"+s2));
+        intent.setData(Uri.parse("tel:" + s2));
         startActivity(intent);
+
+    }
+    public void articleOptions(String s1){
+        Log.d("单个参数", s1);
 
 
     }

@@ -16,9 +16,9 @@ public class BitmapHelper {
 				new File(Environment.getExternalStorageDirectory(), "Beijing").getAbsolutePath(),
 				0.25f);
 
-		utils.configDefaultLoadingImage(R.mipmap.ic_launcher);
-		utils.configDefaultLoadFailedImage(R.mipmap.ic_launcher);
-		utils.configDefaultBitmapMaxSize(100, 100);
+		utils.configDefaultLoadingImage(R.mipmap.londing);
+		utils.configDefaultLoadFailedImage(R.mipmap.londfaild);
+		utils.configDefaultBitmapMaxSize(800,800);
 
 		utils.configDefaultCacheExpiry(1000 * 60 * 60 * 24);
 
