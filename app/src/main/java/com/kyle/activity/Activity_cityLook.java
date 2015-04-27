@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 public class Activity_cityLook extends ActionBarActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
