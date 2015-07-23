@@ -19,6 +19,7 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 public class Activity_info extends ActionBarActivity implements View.OnClickListener {
     private TextView title;
     private ViewPager pager;
+
     private SlidingTabLayout silding_tab_title;
     private String[] title_name;
     private String[] title_id;
